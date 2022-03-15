@@ -1,0 +1,202 @@
+    1  apt update
+    2  apt install vsftpd
+    3  sudo systemctl start vsftpd
+    4  sudo systemctl enable vsftpd
+    5  cp /etc/vsftpd.conf  /etc/vsftpd.conf_default
+    6  sudo useradd -m rsi
+    7  passwd rsi
+    8  ufw allow 20/tcp
+    9  ufw allow 21/tcp
+   10  cd /home/rsi/
+   11  ll
+   12  usermod -d /home/rsi ftp
+   13  sudo systemctl restart vsftpd.service
+   14  mkdir tps
+   15  sudo systemctl restart vsftpd.service
+   16  nano /etc/vsftpd.conf
+   17  sudo systemctl restart vsftpd.service
+   18  nano /etc/vsftpd.conf
+   19  sudo systemctl restart vsftpd.service
+   20  cat /etc/vsftpd.chroot_list
+   21  cat 
+   22  cat  /etc/ftpusers
+   23  nano /etc/vsftpd.chroot_list
+   24  sudo systemctl restart vsftpd.service
+   25  nano /etc/vsftpd.chroot_list
+   26  sudo systemctl restart vsftpd.service
+   27  nano /etc/vsftpd.conf
+   28  sudo systemctl restart vsftpd.service
+   29  nano /etc/vsftpd.chroot_list
+   30  sudo systemctl restart vsftpd.service
+   31  *
+   32  sudo systemctl restart vsftpd.service
+   33  cd tps/
+   34  touch main.py
+   35  python --version
+   36  sudo systemctl restart vsftpd.service
+   37  python -v
+   38  python3 -v
+   39  python3 --version
+   40  passwd
+   41  passwd rsi
+   42  nano /etc/vsftpd.conf
+   43  sudo systemctl restart vsftpd.service
+   44  cd ..
+   45  chmod 777 tps/
+   46  chmod -R 777 tps/
+   47  nano /etc/vsftpd.conf
+   48  sudo systemctl restart vsftpd.service
+   49  cd tps/sysinfo/
+   50  python3 main.py 
+   51  pip
+   52  apt install python3-pip
+   53  pip install psutil
+   54  python3 main.py 
+   55  python3 sysinfos.py 
+   56  clear
+   57  python3 sysinfos.py 
+   58  nano /etc/vsftpd.conf
+   59  sudo systemctl restart vsftpd.service
+   60  nano /etc/vsftpd.conf
+   61  sudo systemctl restart vsftpd.service
+   62  nano /etc/vsftpd.conf
+   63  cd /home/ubuntu/
+   64  openssl rsa -in private.pem -outform PEM -pubout -out public.pem
+   65  ll
+   66  openssl rsa -in private.pem -outform PEM -pubout -out public.pem
+   67  mkdir ssl
+   68  cd ssl
+   69  openssl genrsa -out key.pem 2048
+   70  openssl rsa -in key.pem -outform PEM -pubout -out public.pem
+   71  ll
+   72  mkdir /etc/vsftpd
+   73  cd /etc/vsftpd/
+   74  nano vusers.txt
+   75  db_load -T -t hash -f vusers.txt vsftpd-virtual-user.db
+   76  apt install db-util
+   77  db_load -T -t hash -f vusers.txt vsftpd-virtual-user.db
+   78  ll
+   79  cat vsftpd-virtual-user.db 
+   80  chmod 600 vsftpd-virtual-user.db
+   81  nano /etc/vsftpd.conf
+   82  sudo systemctl restart vsftpd.service
+   83  nano  /etc/pam.d/vsftpd.virtual
+   84  mkdir -p /home/vftp/mehdi
+   85  chown -R ftp:ftp /home/vftp
+   86  sudo systemctl restart vsftpd.service
+   87  cat vusers.txt 
+   88  nano vusers.txt 
+   89  nano /etc/vsftpd.conf
+   90  sudo systemctl restart vsftpd.service
+   91  mkdir -p /home/vftp/rsi
+   92  chown -R ftp:ftp /home/vftp
+   93  nano vusers.txt 
+   94  chmod 600 vsftpd-virtual-user.db
+   95  rm vusers.txt 
+   96  nano vusers.txt 
+   97  rm vsftpd-virtual-user.db 
+   98  db_load -T -t hash -f vusers.txt vsftpd-virtual-user.db
+   99  chmod 600 vsftpd-virtual-user.db
+  100  mkdir -p /home/vftp/{vivek,sayali}
+  101  chown -R ftp:ftp /home/vftp
+  102  service vsftpd restart
+  103  nano /etc/vsftpd.conf
+  104  nano  /etc/pam.d/vsftpd.virtual
+  105  service vsftpd restart
+  106  nano /etc/vsftpd.conf
+  107  service vsftpd restart
+  108  sudo systemctl restart vsftpd.service
+  109  cd /home/vftp/
+  110  ll
+  111  apt install db4
+  112  history | grep install
+  113  htpasswd 
+  114  apt install libpam-pwdfile
+  115  ll
+  116  cd /etc/vsftpd/
+  117  ll
+  118  rm *
+  119  ll
+  120  nano vusers.txt 
+  121  db_load -T -t hash -f vusers.txt vsftpd-virtual-user.db
+  122  ll
+  123  chown -R ftp:ftp /home/vftp
+  124  chmod 600 vsftpd-virtual-user.db
+  125  rm vusers.txt 
+  126  sudo systemctl restart vsftpd.service
+  127  nano  /etc/pam.d/vsftpd.virtual
+  128  apt install libpam0g-dev
+  129  sudo systemctl restart vsftpd.service
+  130  nano /etc/vsftpd.conf
+  131  sudo systemctl restart vsftpd.service
+  132  ll
+  133  nano vusers.txt 
+  134  db_load -T -t hash -f vusers.txt vsftpd-virtual-user.db
+  135  rm vsftpd-virtual-user.db 
+  136  sudo systemctl restart vsftpd.service
+  137  db_load -T -t hash -f vusers.txt vsftpd-virtual-user.db
+  138  sudo systemctl restart vsftpd.service
+  139  nano /etc/vsftpd.conf
+  140  sudo systemctl restart vsftpd.service
+  141  cat /etc/vsftpd/vsftpd.conf
+  142  cd /home/
+  143  ll
+  144  cd vftp/
+  145  ll
+  146  cd rsi
+  147  ll
+  148  mkdir tps
+  149  cd /etc/vsftpd/
+  150  ll
+  151  nano vusers.txt 
+  152  cd /etc/vsftpd/
+  153  ll
+  154  cat vusers.txt 
+  155  db_load -T -t hash -f vusers.txt vsftpd-virtual-user.db
+  156  sudo systemctl restart vsftpd.service
+  157  chown -R ftp:ftp /home/vftp
+  158  nano /etc/vsftpd.conf
+  159  sudo systemctl restart vsftpd.service
+  160  sudo systemctl stop vsftpd.service
+  161  sudo systemctl start vsftpd.service
+  162  nano /etc/vsftpd.conf
+  163  sudo systemctl restart vsftpd.service
+  164  sudo systemctl start vsftpd.service
+  165  sudo systemctl restart vsftpd.service
+  166  systemctl enable vsftpd
+  167  sudo systemctl restart vsftpd.service
+  168  1:8.2p1-4ubuntu0.4
+  169  iptables -L -n
+  170  sudo ufw allow 20/tcp
+  171  sudo ufw allow 21/tcp
+  172  reboot
+  173  nano /etc/vsftpd.conf
+  174  sudo systemctl restart vsftpd.service
+  175  cp /etc/vsftpd.conf /etc/vsftpd/ftp.conf
+  176  apt remove --purge vsftpd
+  177  apt  install vsftpd
+  178  sudo ufw allow 20/tcp
+  179  sudo systemctl restart vsftpd.service
+  180  nano /etc/vsftpd.conf
+  181  ls
+  182  cd :etc
+  183  cd /etc
+  184  ll
+  185  rm vsftpd.conf
+  186  cp vsftpd/ftp.conf vsftpd.conf
+  187  ll
+  188  nano /etc/vsftpd.conf
+  189  sudo systemctl restart vsftpd.service
+  190  rm vsftpd.conf
+  191  ll
+  192  cp vsftpd.conf_default vsftpd.conf
+  193  ll
+  194  sudo systemctl restart vsftpd.service
+  195  cp vsftpd/ftp.conf vsftpd.conf
+  196  nano vsftpd.conf
+  197  sudo systemctl restart vsftpd.service
+  198  nano vsftpd.conf
+  199  sudo systemctl restart vsftpd.service
+  200  cd /home/rsi/tps/
+  201  ll
+  202  history > cmds.txt

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="fef0f4aa-268c-4f09-98ec-67420e9bc107" name="rsi" url="http://51.254.119.183">
+        <fileTransfer rootFolder="/home/rsi/tps" accessType="FTPS" host="51.254.119.183" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
